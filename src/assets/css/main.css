@@ -26,10 +26,7 @@ li a:hover {
 
 
 body {
-  position: relative;
   background: url("../images/header_background.jpg") no-repeat top center;
-  height: 580px;
-  min-height: 639px;
   width: 100%;
 
   background-size: cover !important;
@@ -39,5 +36,5 @@ body {
 
 }
 h1 {
-  color: blue;
+  color: white;
 }
