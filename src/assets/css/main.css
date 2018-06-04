@@ -23,12 +23,12 @@
 }
 
 body {
-  background: url("../images/header_background.jpg") no-repeat top center;
+  background: powderblue;
   marging: 0;
 }
 
 h1 {
-  color: gray;
+  color: midnightblue;
   text-align: center;
   font-size: 100px;
   font-family: 'Quicksand', sans-serif;
@@ -36,15 +36,19 @@ h1 {
 
 p {
   text-align: center;
-  color: black;
+  color: midnightblue;
   font-family: 'Coustard', serif;
 }
 
 a {
-  color: white;
+  color: gray;
   text-decoration: none;
 }
 
 a:hover{
-  color: green;
+  color: white;
+}
+.social {
+    list-style-type: none;
+    text-align: center;
 }
