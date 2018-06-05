@@ -7,18 +7,46 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
   </head>
 
   <body>
     <section id="home">
     <div class="topnav">
       <a href="#home" class="active">Home</a>
-      <a href="#news">About</a>
+      <a href="#about">About</a>
       <a href="#work">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
-
+<br/>
     <h1>I'm Zakariya Sattar</h1>
     <p><font size="+2">I am a high school student passionate about my work, <br/>designing and developing programming applications, and playing tennis.<br/>
         Let's start learning about <a href="#about">me</a> and <a href="#work">my work</a>.</font></p>
@@ -33,9 +61,51 @@
     <script src="canvas.js"></script>
   </section>
 
+  <section id="about">
+      <h1 class="about-header">About Me</h1>
+
+      <p class="about-text">
+        I currently attend Niles West High School as a Sophomore in Skokie, Il.<br/>
+        One of the many things I am passionate about is writing and producing code.<br/>
+        I love to code because it is the only thing I do that requires a different,<br/>
+        more outside of the box thinking process. Not to mention that the outcome <br/>
+        of such thinking is a satisfyingly awesome product! I also really enjoy playing <br/>
+        tennis for Niles West. We have an excellent Tennis team and it is an honor to compete<br/>
+        at the high school level. I hope you enjoyed meeting me, now feel free to <a href="#contact">let me meet you!</a>
+      </p>
+
+
+      <div style="text-align:center;">
+        <a href="/generic.html"><button>Read More About Me!</button></a>
+        <a href="#contact"><button>Contact Me!</button></a>
+      </div>
+
+      <br/><br/><br/><br/>
+  </section>
+
+  <section id="projects"></section>
+
+  <section id="contact">
+    <div class="container">
+
+      <form name="contact" method="POST" data-netlify="true">
+        <br/>
+        <label for="fname" class="fname"><tab1></tab1>First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname" class="lname"><tab1></tab1>Last Name</label>
+        <tab1></tab1><input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject" class="subject"><tab1></tab1>Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <tab1></tab1><input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="container1">
+    <h1>Contact Me!</h1>
+  </div>
+</section>
 </body>
-
-
-
 
 </html>

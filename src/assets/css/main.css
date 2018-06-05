@@ -1,5 +1,5 @@
 .topnav {
-  background-color: gray;
+  position: fixed;
 }
 
 .topnav a {
@@ -27,8 +27,10 @@
 
 body {
   margin: 0;
-  overflow: hidden;
-  background: black;
+  height: 100%;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 tab1 { padding-left: 0.5em; }
@@ -90,4 +92,99 @@ canvas {
   background: black;
   margin: 0;
   width: 100%;
+}
+
+#home {
+  background: black;
+}
+
+#about {
+  color: black;
+  padding-bottom: 66px;
+}
+
+.about-header{
+  color: black;
+}
+
+.about-text {
+  color: black;
+}
+
+#about button {
+  text-decoration: none;
+  width: 10%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: tomato;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+#about button:hover {
+  outline: 0;
+  background-color: cornflowerblue;
+  cursor: pointer;
+
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#about a:visited {
+  color: cornflowerblue;
+}
+
+#about a:hover {
+  color: tomato;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-color: cornflowerblue;
+}
+
+.container1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: coral;
+}
+
+.fname, .lname, .subject{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
