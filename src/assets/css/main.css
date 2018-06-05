@@ -24,13 +24,14 @@
 }
 
 .topnav a.active {
-  background-color: cornflowerblue;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 body {
-  background: powderblue;
-  marging: 0;
+  margin: 0;
+  overflow: hidden;
+  background: black;
 }
 
 tab1 { padding-left: 0.5em; }
@@ -44,7 +45,7 @@ tab8 { padding-left: 32em; }
 tab9 { padding-left: 36em; }
 
 h1 {
-  color: midnightblue;
+  color: white;
   text-align: center;
   font-size: 100px;
   font-family: 'Quicksand', sans-serif;
@@ -52,7 +53,7 @@ h1 {
 
 p {
   text-align: center;
-  color: midnightblue;
+  color: white;
   font-family: 'Coustard', serif;
 }
 
@@ -87,4 +88,9 @@ a:hover{
   font-size: 42px;
   line-height: 42px;
   border-radius: 100%;
+}
+canvas {
+  background: black;
+  margin: 0;
+  width: 100%;
 }
