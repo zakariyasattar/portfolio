@@ -12,20 +12,9 @@
   font-size: 17px;
 }
 
-
-tab1 { padding-left: 0.5em; }
-tab2 { padding-left: 8em; }
-tab3 { padding-left: 12em; }
-tab4 { padding-left: 16em; }
-tab5 { padding-left: 20em; }
-tab6 { padding-left: 24em; }
-tab7 { padding-left: 28em; }
-tab8 { padding-left: 32em; }
-tab9 { padding-left: 36em; }
-
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: steelblue;
+  color: white;
 }
 
 .topnav a.active {
@@ -37,6 +26,16 @@ body {
   background: powderblue;
   marging: 0;
 }
+
+tab1 { padding-left: 0.5em; }
+tab2 { padding-left: 8em; }
+tab3 { padding-left: 12em; }
+tab4 { padding-left: 16em; }
+tab5 { padding-left: 20em; }
+tab6 { padding-left: 24em; }
+tab7 { padding-left: 28em; }
+tab8 { padding-left: 32em; }
+tab9 { padding-left: 36em; }
 
 h1 {
   color: midnightblue;
