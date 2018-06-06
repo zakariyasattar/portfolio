@@ -26,6 +26,7 @@
 }
 
 body {
+  background: moccasin;
   margin: 0;
   height: 100%;
   overflow: scroll;
@@ -50,6 +51,12 @@ h1 {
   font-family: 'Quicksand', sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   text-align: center;
   color: white;
@@ -57,17 +64,19 @@ p {
 }
 
 a {
-  color: gray;
+  color: steelblue;
   text-decoration: none;
 }
 
 a:hover{
-  color: steelblue;
+  color: gray;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+
 .social {
     text-align: center;
 }
@@ -89,7 +98,6 @@ a:hover{
   border-radius: 100%;
 }
 canvas {
-  background: black;
   margin: 0;
   width: 100%;
 }
@@ -99,15 +107,15 @@ canvas {
 }
 
 #about {
-  color: black;
   padding-bottom: 66px;
 }
 
 .about-header{
-  color: black;
+  color: cornflowerblue;
 }
 
 .about-text {
+  text-align: center;
   color: black;
 }
 
@@ -118,11 +126,10 @@ canvas {
   margin: 0;
   padding: 0;
   border: none;
-  background: tomato;
+  background: coral;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
-
-
+  font-size: 14px;
 }
 
 #about button:hover {
@@ -169,8 +176,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: mediumspringgreen;
-    color: black;
+    background-color: coral;
 }
 
 .container {
@@ -194,3 +200,64 @@ input[type=submit]:hover {
 #contact p{
   font-family: 'Josefin Sans', sans-serif;
 }
+
+#projects {
+  background: turquoise;
+  padding-bottom: 66px;
+}
+
+
+#projects .grid-container {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: turquoise;
+  padding: 100px;
+  padding-right: 10px;
+}
+#projects .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 75%;
+  height: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+#skills {
+  padding-bottom: 66px;
+}
+
+#skills h1 {
+  color: coral;
+}
+
+#skills p {
+  color: coral;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#skills div {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+* {box-sizing: border-box}
+
+.skillbars {
+  width: 100%;
+  background-color: moccasin;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 90%; background-color: mediumaquamarine;}
+.css {width: 80%; background-color: mediumaquamarine;}
+.js {width: 65%; background-color: mediumaquamarine;}
+.php {width: 60%; background-color: mediumaquamarine;}

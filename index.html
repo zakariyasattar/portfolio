@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Zakariya Sattar</title>
-    <link rel="stylesheet" type="text/css" href="src/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" href="font-awesome-animation.min.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -35,6 +35,23 @@
       });
     });
     </script>
+    <script>
+      var top1 = $('#home').offset().top;
+      var top2 = $('#about').offset().top;
+      var top3 = $('#work').offset().top;
+      var top4 = $('#projects').offset().top;
+
+      $(document).scroll(function() {
+      var scrollPos = $(document).scrollTop();
+      if (scrollPos >= top1 && scrollPos < top2) {
+        $('#change').css('color', 'black');
+      } else if (scrollPos >= top2 && scrollPos < top3) {
+        $('#change').css('color', '#0f0');
+      } else if (scrollPos >= top3 && scrollPos < top4) {
+        $('#change').css('color', '#00f');
+      }
+      });
+    </script>
   </head>
 
   <body>
@@ -42,7 +59,7 @@
     <div class="topnav">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-      <a href="#work">Projects</a>
+      <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
@@ -75,14 +92,47 @@
       </p>
 <br/>
       <div style="text-align:center;">
-        <a href="/generic.html"><button>Read More About Me!</button></a>
+        <a href="pages/about.html"><button>Read More About Me!</button></a>
         <a href="#contact"><button>Contact Me!</button></a>
       </div>
 
-      <br/><br/><br/><br/>
   </section>
 
-  <section id="projects"></section>
+  <section id="projects">
+    <h1>Projects</h1>
+
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+    </div>
+    <br/>
+  </section>
+
+  <section id="skills">
+    <h1>My Skills</h1>
+
+    <p><tab1></tab1>HTML</p>
+<div class="skillbars" >
+  <div class="skills html">90%</div>
+</div>
+
+<p><tab1></tab1>CSS</p>
+<div class="skillbars">
+  <div class="skills css">80%</div>
+</div>
+
+<p><tab1></tab1>JavaScript</p>
+<div class="skillbars">
+  <div class="skills js">65%</div>
+</div>
+
+<p><tab1></tab1>PHP</p>
+<div class="skillbars">
+  <div class="skills php">60%</div>
+</div>
+  </section>
+
 
   <section id="contact">
     <div class="container">
