@@ -34,7 +34,6 @@
 body {
   background: moccasin;
   margin: 0;
-  height: 100%;
   overflow: scroll;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -120,6 +119,7 @@ canvas {
 }
 
 #home {
+  height: 100%;
   background: black;
 }
 
@@ -201,7 +201,7 @@ input[type=submit]:hover {
     height: 50%;
     float: right;
     background-color: cornflowerblue;
-    padding-bottom: 66px;
+
 }
 
 .container1 {
@@ -209,13 +209,15 @@ input[type=submit]:hover {
     height: 50%;
     float: left;
     background-color: mediumseagreen;
-    padding-bottom: 300px;
+    padding-bottom: 66px;
 }
 
 .fname, .lname, .subject{
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+
 #contact p {
   font-family: 'Josefin Sans', sans-serif;
 }
