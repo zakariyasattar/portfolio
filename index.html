@@ -35,23 +35,6 @@
       });
     });
     </script>
-    <script>
-      var top1 = $('#home').offset().top;
-      var top2 = $('#about').offset().top;
-      var top3 = $('#work').offset().top;
-      var top4 = $('#projects').offset().top;
-
-      $(document).scroll(function() {
-      var scrollPos = $(document).scrollTop();
-      if (scrollPos >= top1 && scrollPos < top2) {
-        $('#change').css('color', 'black');
-      } else if (scrollPos >= top2 && scrollPos < top3) {
-        $('#change').css('color', '#0f0');
-      } else if (scrollPos >= top3 && scrollPos < top4) {
-        $('#change').css('color', '#00f');
-      }
-      });
-    </script>
   </head>
 
   <body>
@@ -65,8 +48,9 @@
     </div>
 <br/>
     <h1>I'm Zakariya Sattar</h1>
+    <div class="header-bar waypoint" ></div>
     <p><font size="+2">I am a high school student passionate about my work, <br/>designing and developing programming applications, and playing tennis.<br/>
-        Let's start learning about <a href="#about">me</a> and <a href="#work">my work</a>.</font></p>
+        Let's start learning about <a href="#about">me</a> and <a href="#projects">my work</a>.</font></p>
         <br>
     <div class="center">
       <a href="https://www.github.com/zakariyasattar" target="_blank"><i class="fab fa-github" style="font-size: 32px;"></i></a><tab1></tab1>
@@ -119,17 +103,17 @@
 
 <p><tab1></tab1>CSS</p>
 <div class="skillbars">
-  <div class="skills css">80%</div>
+  <div class="skills css">85%</div>
 </div>
 
-<p><tab1></tab1>JavaScript</p>
+<p><tab1></tab1>JAVA</p>
 <div class="skillbars">
-  <div class="skills js">65%</div>
+  <div class="skills js">80%</div>
 </div>
 
-<p><tab1></tab1>PHP</p>
+<p><tab1></tab1>REACT</p>
 <div class="skillbars">
-  <div class="skills php">60%</div>
+  <div class="skills php">50%</div>
 </div>
   </section>
 
@@ -154,9 +138,29 @@
   <div class="container1">
     <h1>Contact Me!</h1>
 
-    <p>Please take the time to fill out this form or if more convenient you can email me.</p>
+    <p>Please feel free to fill this form out if you have any questions <br/>or concerns or even just feedback. Thanks :)
+      </p>
+      <div class="header-bar waypoint" ></div>
+      <p>You can call or text me at (726)-666-0712</p>
+      <div class="header-bar waypoint" ></div>
+      <p>You can also <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=zakariyasattar03@gmail.com&tf=1" target="_blank">email me</a>.</p>
+      <br/>
   </div>
 </section>
+
+  <footer id="footer">
+    <p style="color: purple">Footer</p>
+    <div class="center">
+      <a href="https://www.github.com/zakariyasattar" target="_blank"><i class="fab fa-github" style="font-size: 25;"></i></a><tab1></tab1>
+      <a href="https://dribbble.com/zakariyasattar" target="_blank"><i class="fab fa-dribbble" style="font-size: 25px;"></i></a><tab1></tab1>
+      <a href="https://https://medium.com/@zakariyasattar03" target="_blank"><i class="fab fa-medium-m" style="font-size: 25px;"></i></a><tab1></tab1>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zakariyasattar03@gmail.com" target="_blank"><i class="fas fa-envelope" style="font-size: 25px;"></i></a><tab1></tab1>
+    </div>
+    <div class="header-bar waypoint" ></div>
+    <ul>
+      <li>&copy 2018 Zakariya Sattar</li>
+    </ul>
+  </section>
 </body>
 
 </html>
