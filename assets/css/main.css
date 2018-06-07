@@ -143,15 +143,20 @@ canvas {
 
 #about button {
   text-decoration: none;
-  width: 10%;
+  width: 25%;
   height: 5%;
-  margin: 0;
-  padding: 0;
+  display: inline;
   border: none;
   background: coral;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1080px;
 }
 
 #about button:hover {
