@@ -31,7 +31,7 @@
 
 
 body {
-  background: mediumseagreen;
+  background: purple;
   margin: 0;
   overflow: scroll;
   overflow-y: scroll;
@@ -298,13 +298,11 @@ input[type=submit]:hover {
 
 #footer {
     background: purple;
-    padding-bottom: 74px;
+    padding-bottom: 66px;
 }
 
 #footer li {
   color: white;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  line-height: 24px;
-  text-align: center;
 }
