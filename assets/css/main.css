@@ -32,7 +32,7 @@
 
 
 body {
-  background: moccasin;
+  background: purple;
   margin: 0;
   overflow: scroll;
   overflow-y: scroll;
@@ -119,11 +119,16 @@ canvas {
 }
 
 #home {
-  height: 100%;
   background: black;
 }
 
+.header-text {
+
+}
+
 #about {
+  padding-top: 20px;
+  background: moccasin;
   padding-bottom: 66px;
 }
 
@@ -178,7 +183,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     margin-right: 20px;
-    resize: vertical;
+    resize: none;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -197,19 +202,16 @@ input[type=submit]:hover {
 }
 
 .container {
-    width: 50%;
-    height: 50%;
-    float: right;
-    background-color: cornflowerblue;
-
+  float: right;
+  width: 50%;
+  height: 75%;
+  background-color: cornflowerblue;
 }
 
 .container1 {
-    width: 50%;
-    height: 50%;
-    float: left;
-    background-color: mediumseagreen;
-    padding-bottom: 66px;
+  width: 50%;
+  height: 75%;
+  background-color: mediumseagreen;
 }
 
 .fname, .lname, .subject{
@@ -254,6 +256,7 @@ input[type=submit]:hover {
 
 
 #skills {
+  background: moccasin;
   padding-bottom: 66px;
 }
 
@@ -272,7 +275,7 @@ input[type=submit]:hover {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-* {box-sizing: border-box}
+* {margin: 0; padding: 0;}
 
 .skillbars {
   width: 100%;
@@ -291,12 +294,12 @@ input[type=submit]:hover {
 .js {width: 80%; background-color: mediumaquamarine;}
 .php {width: 50%; background-color: mediumaquamarine;}
 
-footer {
-    padding-bottom: 60px;
+#footer {
     background: purple;
+    padding-bottom: 74px;
 }
 
-footer li {
+#footer li {
   color: white;
   text-align: center;
   font-family: 'Quicksand', sans-serif;

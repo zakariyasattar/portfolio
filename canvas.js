@@ -4,7 +4,7 @@ canvas.height = window.innerHeight/2;
 
 var c = canvas.getContext('2d');
 var mouse = {x: undefined, y: undefined};
-var maxPullDistance = canvas.height * 0.8;
+var maxPullDistance = canvas.height;
 
 window.addEventListener("mousemove", function(e) {
 	mouse.x = e.clientX;
