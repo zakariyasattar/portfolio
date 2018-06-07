@@ -306,3 +306,11 @@ input[type=submit]:hover {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
+
+#footer .arrow-up {
+  color: white;
+}
+
+#footer .arrow-up:hover {
+  color: black;
+}
