@@ -14,7 +14,6 @@ window.addEventListener("mousemove", function(e) {
 window.addEventListener("resize", function(e) {
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
-
 	createBars();
 });
 
