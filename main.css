@@ -24,7 +24,6 @@
 
 .topnav a.active {
 }
-
 * {
 }
 
@@ -240,22 +239,42 @@ input[type=submit]:hover {
 
 #projects .grid-container {
   display: grid;
-  grid-column-gap: 1px;
-  grid-row-gap: 20px;
-  grid-template-columns: auto auto auto;
+  grid-row-gap: 10px;
+  grid-column-gap: 5px;
+  grid-template-columns: 600px 600px 600px;
   background-color: turquoise;
-  padding: 100px;
-  padding-right: 10px;
 }
 #projects .grid-item {
+  margin-right: 200px; 
+  margin-left: 150px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   width: 75%;
   height: 200px;
   font-size: 30px;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
+#projects .grid-item p {
+  color: coral;
+  font-size: 20px;
+}
+
+#projects .grid-item span {
+  color: cornflowerblue;
+  font-size: 20px;
+}
+
+#projects .grid-item a:hover {
+  color: navy;
+  font-size: 20px;
+}
+
+#projects .grid-item italic {
+  color: gray;
+  font-style: italic;
+}
 
 #skills {
   background: moccasin;
