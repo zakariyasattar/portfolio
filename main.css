@@ -119,8 +119,6 @@ canvas {
 
 #home {
   background: black;
-  max-width:100%;
-  height:auto;
 }
 
 #home .topnav a{
@@ -129,9 +127,7 @@ canvas {
 
 #home .topnav a:hover {
   color: white;
-
 }
-
 
 #home h1 {
   color: white;
@@ -229,16 +225,24 @@ input[type=submit]:hover {
     background-color: coral;
 }
 
+.container {
+  float: right;
+  width: 50%;
+  height: 75%;
+  background-color: cornflowerblue;
+}
+
+.container1 {
+  width: 50%;
+  height: 75%;
+  background-color: mediumseagreen;
+}
 
 .fname, .lname, .subject{
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-#contact {
-  padding-bottom: 100px;
-  background: linear-gradient(90deg, mediumseagreen 42%, cornflowerblue 42%);
-}
 
 #contact p {
   font-family: 'Josefin Sans', sans-serif;
@@ -248,22 +252,6 @@ input[type=submit]:hover {
 }
 #contact a:hover {
   color: blue;
-}
-#contact .Form{
-  margin-left: 40%;
-}
-
-#contact .contact-form {
-  background: black;
-}
-
-#contact .header-bar-form {
-  margin: 25px  75px ;
-  margin-right: auto;
-  margin-left: 20%;
-  width: 130px;
-  height: 4px;
-  background: white;
 }
 
 #projects {
