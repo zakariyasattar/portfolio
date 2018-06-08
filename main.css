@@ -249,6 +249,7 @@ input[type=submit]:hover {
 
 #contact {
   padding-bottom: 66px;
+  background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
 }
 
 #contact p {
