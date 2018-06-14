@@ -242,7 +242,10 @@ input[type=submit]:hover {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
-
+#contact {
+  margin-bottom: 66px;
+  background: linear-gradient(90deg, mediumseagreen 50%, cornflowerblue 50%)
+}
 
 #contact p {
   font-family: 'Josefin Sans', sans-serif;
