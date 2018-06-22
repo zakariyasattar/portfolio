@@ -260,6 +260,8 @@ input[type=submit]:hover {
 #projects {
   background: turquoise;
   padding-bottom: 66px;
+  padding-left: 66px;
+  padding-right: 66px;
 }
 
 
@@ -271,8 +273,6 @@ input[type=submit]:hover {
   background-color: turquoise;
 }
 #projects .grid-item {
-  margin-right: 200px;
-  margin-left: 150px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   width: 75%;
