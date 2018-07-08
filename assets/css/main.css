@@ -271,6 +271,7 @@ input[type=submit]:hover {
   grid-column-gap: 0px;
   grid-template-columns: 450px 450px 450px;
   background-color: turquoise;
+  margin-right: 170px; 
 }
 #projects .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
