@@ -267,16 +267,16 @@ input[type=submit]:hover {
 
 #projects .grid-container {
   display: grid;
-  grid-row-gap: 10px;
-  grid-column-gap: 5px;
-  grid-template-columns: 600px 600px 600px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: 450px 450px 450px;
   background-color: turquoise;
 }
 #projects .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   width: 75%;
-  height: 200px;
+  height: 250px;
   font-size: 30px;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
