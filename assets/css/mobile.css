@@ -1,7 +1,9 @@
 /*
   Landing page
 */
-
+body {
+  background-color: lavender;
+}
 #home  {
   height: 100%;
   background-color: lavender;
