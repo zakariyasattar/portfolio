@@ -1,7 +1,7 @@
+/*
+  Landing page
+*/
 
-body {
-  background-color: lavender;
-}
 #home  {
   height: 100%;
   background-color: lavender;
@@ -21,7 +21,7 @@ body {
   font-size: 20px;
 }
 
-#home button {
+button {
   color: black;
   height: 10%;
   width: 50%;
@@ -37,6 +37,7 @@ body {
 }
 
 .dropbtn {
+    width: 15%;
     background-color: #3498DB;
     color: white;
     padding: 16px;
@@ -77,3 +78,11 @@ body {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+/*
+  About page
+*/
+
+#about {
+  background-color: moccasin;
+}
