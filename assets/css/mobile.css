@@ -1,13 +1,33 @@
 #home  {
-  height: 90%;
+  height: 100%;
   background-color: lavender;
   text-align: center;
   display: table;
   width: 100%;
 }
 
-h1 {
+#home h1 {
   font-size: 40px;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+}
+
+#home p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+
+#home button {
+  color: black;
+  height: 10%;
+  width: 50%;
+  background: white;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: none;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  background: lightskyblue;
 }
