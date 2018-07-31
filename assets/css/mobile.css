@@ -26,7 +26,7 @@ body {
   font-size: 20px;
 }
 
-button {
+#home .test {
   color: black;
   height: 10%;
   width: 50%;
@@ -90,6 +90,7 @@ a {
   font-style: none;
   font-display: none;
   text-decoration: none;
+  color: black;
 }
 
 /*
