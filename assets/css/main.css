@@ -261,6 +261,11 @@ input[type=submit]:hover {
   background: lightblue;
 }
 
+#contact button:hover {
+  background: deepskyblue;
+  cursor: pointer;
+}
+
 #contact textarea {
   background-color: gainsboro;
 }
