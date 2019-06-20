@@ -151,7 +151,9 @@ canvas {
 }
 
 .about-text {
-  text-align: center;
+  text-align: left;
+  margin-left: 15vw;
+  margin-right: 15vw;
 
   color: black;
 }
@@ -224,6 +226,7 @@ input[type=submit]:hover {
   width: 50%;
   height: 75%;
   background-color: cornflowerblue;
+  padding: 30px 30px 0 30px;
 }
 
 .container1 {
